@@ -1,2 +1,1 @@
-# SQL
-SQL Portfolio
+My SQL portfolio will showcase projects involving database design, advanced querying, and data transformation (ETL). I will demonstrate skills in optimizing query performance and creating reports using SQL-driven data. Additionally, I’ll highlight tasks related to database management and security across platforms like MySQL and PostgreSQL. Feel free to reach out with any questions you may have.
