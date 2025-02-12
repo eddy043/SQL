@@ -1,0 +1,27 @@
+CREATE TABLE superstore (
+    item_id INTEGER PRIMARY KEY,
+    item_name TEXT,
+    category TEXT,
+    price DECIMAL(10, 2),
+    stock_quantity INTEGER,
+    average_rating DECIMAL(3, 2)
+);
+select*
+from superstore
+order by price;
+
+--Use SUM
+select SUM(price)
+from superstore;
+
+--Use WHERE
+select round(SUM(price),2)
+from superstore
+where category = 'Kitchen Supplies';
+
+--Create out SQL
+select AVG(price)
+from superstore
+where category= 'Furnishings'
+
+
